@@ -91,7 +91,7 @@ end
 def draw?(board)
   if won?(board) == nil &&
     full?(board) == true
-    puts "Cat's Game!"
+    puts "It's a tie!!"
     return true 
   elsif 
     false 
